@@ -1,0 +1,328 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Dancing+Script:wght@600&family=Indie+Flower&family=Mooli&display=swap');
+
+
+ :root {
+ --color1: #9f9dae; 
+ --color2: #80a7aa; 
+ --color3: #ece1ec; 
+ --color4: #58545b; 
+ --color5: #c6e5e7;
+ --color6: black; 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: 'Molly',sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:link, a:visited, a:active ::before {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   }
+
+#header{
+    background-color:var(--color4);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+   
+}
+
+
+#imagen{
+    width: 19%;
+    margin-left: 10px;
+    
+}
+.navegacion{
+    background-color: #33575a !important;
+}
+.nav-link:hover{
+    background-color:#f79c8e !important;
+    color: white!important;
+    border-radius: 10px 10px 0px 0px!important;
+
+}
+.carous{
+ margin-top: 140px;
+ 
+} 
+.carritocompra{
+    
+    background-color: #33575a;
+    justify-content: space-between;
+
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 85%
+}
+.header-seccion{
+    display:flex ;
+    top: 14%;  
+}
+
+
+.carro{
+
+    color: white!important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+
+
+}
+.contador{
+    color: white;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    
+
+}
+.titulo_productos{
+    font-family: "Mooli";
+    color: white;
+    margin-top: 70px;
+    margin-left: 20px;
+    padding: 20px;
+    padding-top: 50PX;
+}
+.titulocategoria{
+    text-transform: uppercase;
+    font-family: "Mooli";
+}
+
+.main-container{
+
+    background-color:var(--color3);
+    padding: 2rem;
+    margin-top: 100px;
+    border-radius: 1rem;
+}
+@media (min-width: 800px) {
+    .main-container{
+        
+        background-color:var(--color3);
+        padding: 2rem;
+        margin-top: 15px;
+        border-radius: 1rem;
+    }
+}
+.head{
+    background-color:var(--color1);
+    padding:1rem ;
+    width: 100%;
+    margin-top: 15px;
+}
+.bodytarjeta{
+    background-color:var(--color3);
+    
+}
+.tarjetas{
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+}
+.categoria{
+    
+    color: var(--color6);
+}
+.productos{
+    display: grid;
+    gap: .7rem;
+    grid-auto-rows: 40rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem,1fr));
+}
+
+.agregar{
+background-color: #ffbeaf;
+color: var(--color6);
+text-transform: uppercase;
+border-radius: 0px 10px 10px 0px;
+cursor: pointer;
+border: 0px solid #f59081;
+transition: background-color .2s, color .2s;
+width:max-content;
+padding: 0.5rem;
+box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+
+}
+.botones{
+    
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.descripcion{
+    background-color: var(--color4);
+    color: var(--color3);
+    text-transform: uppercase;
+    border-radius: 10px 0px 0px 10px;
+    cursor: pointer;
+    border: 0px solid #f59081;
+    transition: background-color .2s, color .2s;
+    width:max-content;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+}  
+.descripcion:hover{
+    background-color: #9f9dae;
+  } 
+.agregar:hover{
+    background-color: #f79c8e;
+    color: black;
+
+}
+.nav-link hover { 
+    background-color: #f79c8e;
+}
+
+.tarjeta{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.tarjeta_descripcion{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.volver_tarjeta{
+background-color: var(--color4);
+padding: 5px;
+box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+text-transform: uppercase;
+border-radius: 10px 0px 0px 10px;
+cursor: pointer;
+border: 0px solid #f59081;
+transition: background-color .2s, color .2s;
+width:max-content;
+padding: 0.5rem;
+
+}
+.flecha{
+    background-color: var(--color5);
+    padding: px;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.50);
+    text-transform: uppercase;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+    width:max-content;
+    padding: 0.5rem;
+
+}
+/*carrito*/
+.volver{
+    margin: 10px;
+}
+
+.titulo-carrito{
+    font-size: 2rem;
+    font-family: "Mooli";
+    margin: 1rem;
+    color: white;
+    
+}
+.volver-car{
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: transparent;
+    border-color: transparent;
+    transition: background-color .2s, color .2s;
+    border-radius: 5px;
+   
+}
+
+.volver-car:hover{
+    background-color:var(--color3) ;
+    color: #e2f6f8;
+}
+.carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5 rem  ;
+}
+.carr-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color1);
+    align-items: baseline;
+
+}
+.carrito-vacio{
+    color:var(--color4);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 50px;
+
+    
+
+}
+.imgcarrito{
+    
+    border: 0.1rem solid #33575a;
+    border-radius: .5rem;
+}
+.carrito-articulo{
+  padding: 10px;
+}
+
+.quitar {
+    
+    background-color: transparent;
+    color: var(--clr-red);
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 0;
+    padding: 3px;
+}
+.quitar:hover {
+    background-color:var(--color4) ;
+  
+    transition: background-color .2s, color .2s;
+    color:var(--color5);
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    align-items: baseline
+    
+}
+
+.car-izq-suma{
+    display: flex;
+    justify-items: flex-end; 
+    padding: 1rem;
+    font-size: 2rem;
+    position: relative;
+    gap: 10px;
+}
+    .comprar{
+    border: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: rgb(225, 224, 224) ;
+    padding-top: -1rem;
+    border-radius: 1rem;
+    font-family: 'Molly',sans-serif;
+    cursor: pointer; 
+}    
+.comprar:hover{
+    background-color: var(--color3);
+    color: white ;
+}
+
+.none{
+    display: none ;
+}

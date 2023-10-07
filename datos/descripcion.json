@@ -1,0 +1,133 @@
+[
+
+  { 
+    "codigo":"01",
+    "categoria" : "mujer" ,
+    "id": "PantalonNegro",
+    "titulo" : "Pantalón de vestir",
+    "imagen": "img/modelos/mujer/pantalon_negro_mujer.jpg",
+    "precio": "16.990",
+    "color":"negro",
+    "talles_disponible":"40 al 58",
+    "material": "Tropical Spandex"
+  },
+  {
+    "codigo":"02",
+    "categoria" : "mujer" ,
+    "id": "PantalonRosa",
+    "titulo" : "Pantalón Rosa",
+    "imagen": "img/modelos/mujer/pantalon_rosa_mujer.jpg",
+    "precio": "16.990",
+    "color":"Blanca y rosa",
+    "talles_disponible":"40 al 58",
+    "material": "Tropical Spandex"
+  },
+  {
+    "codigo":"03",
+    "categoria" : "mujer",
+    "id": "vestido",
+    "titulo" : "vestido Rosa",
+    "imagen": "img/modelos/mujer/vestido_rosa-mujer.jpg",
+    "precio": "19.300",
+    "color":"Rosa",
+    "talles_disponible":" S - M - L ",
+    "material": "Crep"
+  },
+  {
+    "codigo":"04",
+    "categoria" : "mujer",
+    "id": "remera_blanca",
+    "titulo" : "Remera Blanca",
+    "imagen": "img/modelos/mujer/remera-blanca.jpg",
+    "precio": "5.000", 
+    "color":"Blanca",
+    "talles_disponible":"S - M - L",
+    "material": "algodón"
+  },
+  { "codigo":"05",
+    "categoria" : "mujer",
+    "id": "remera_negra",
+    "titulo" : "Remera Negra",
+    "imagen": "img/modelos/mujer/remera-negra.jpg",
+    "precio": "5.000", 
+    "color":"Negra",
+    "talles_disponible":"S - M - L",
+    "material":"algodón"
+  },
+  {
+    "codigo":"06",
+    "categoria" : "mujer" , 
+    "id": "Camisa_rosa",
+    "titulo" : "Camisa rosa",
+    "imagen": "img/modelos/mujer/camisa_rosa_mujer.jpg",
+    "precio": "17.999", 
+    "color":"rosa",
+    "talles_disponible":"2 3 4 5 6",
+    "material": "fibrana"
+},
+{
+    "codigo":"07",
+    "id": "Camisa_blanca",
+    "titulo" : "Camisa Blanca",
+    "imagen": "img/modelos/mujer/camisa-blanca_mujer.jpg",
+    "precio": "17.999", 
+    "color":"blanca",
+    "talles_disponible":"2 3 4 5 6",
+    "material": "fibrana"
+  },
+  { 
+    "codigo":"08",
+    "categoria" : "niños",
+    "id": "Buzo_gris",
+    "titulo" : "Buzo Brookyng",
+    "imagen": "img/modelos/niños/buzo-niño.jpg",
+    "precio": "11.899",  
+    "color":"gris",
+    "talles_disponible":"8 - 10 - 12 - 14",
+    "material":"algodón"
+},
+{
+ "codigo":"09",
+ "categoria" : "niños",
+ "id": "Camisa",
+ "titulo" : "Camisa Leñadora",
+ "imagen": "img/modelos/niños/niño_camisa_leñador.jpg",
+ "precio": "8.499",
+ "color":"blanca y roja",
+ "talles_disponible":"8 - 10 - 12 - 14",
+ "material":"algodón y poliéster"
+},
+{
+   "codigo":"10",
+    "categoria" : "niños",
+    "id": "Sweater_Hilo",
+    "titulo" : "Sweater De Hilo",
+    "imagen": "img/modelos/niños/niño-sweater.jpg",
+    "precio": "10.200",  
+    "color":"Beige",
+    "talles_disponible":"8 - 10 - 12 - 14",
+    "material":"Acrílico"
+   },
+   {
+    "codigo":"11", 
+    "categoria" : "niños",
+    "id": "enterito",
+    "titulo" : "Jardinero Jean",
+    "imagen": "img/modelos/niños/niña-enterito-jean.jpg",
+    "precio": "11.913",  
+    "color":"Azul",
+    "talles_disponible":"8 - 10 - 12 - 14",
+    "material":"Jean"
+   },
+   { 
+    "codigo":"12",
+    "categoria" : "niños",
+    "id": "remera",
+    "titulo" : "Remera rayada",
+    "imagen": "img/modelos/niños/remera-niña.jpg",
+    "precio": "2.690",  
+    "color":"Blanca y rosa",
+    "talles_disponible":"8 - 10 - 12 - 14",
+    "material":"Algodón"
+   }
+]
